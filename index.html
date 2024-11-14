@@ -1,136 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joanne Chen Profile</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #000;
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            padding: 40px;
-        }
-
-        .container {
-            max-width: 600px;
-            text-align: left;
-        }
-
-        h1 {
-            font-size: 48px;
-            font-weight: 300;
-            line-height: 1.2;
-            margin-bottom: 20px;
-        }
-
-        hr {
-            margin: 20px 0;
-            width: 80%;
-            border: 0;
-            border-top: 1px solid #000;
-        }
-
-        .profile-picture img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 20px 0;
-            display: block;
-        }
-
-        .section {
-            margin-top: 20px;
-        }
-
-        .profile-info, .education-info, .skills-info {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-
-        .profile-info h2,
-        .education-info h2,
-        .skills-info h2 {
-            font-size: 20px;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .profile-info h2 span,
-        .education-info h2 span,
-        .skills-info h2 span {
-            font-size: 14px;
-            font-weight: normal;
-            color: #d32f2f;
-            margin-left: 10px;
-        }
-
-        .education-info p,
-        .skills-info p {
-            margin-top: 10px;
-        }
-
-        .skills-info {
-            background-color: #455a64;
-            color: #fff;
-            padding: 20px;
-            margin-top: 30px;
-            text-align: center;
-        }
-
-        .skills-info h2 {
-            color: #fff;
-            margin-bottom: 15px;
-        }
-
-        .skills-info p {
-            text-align: left;
-            padding-left: 20px;
-        }
-
-        .skills-info hr {
-            width: 50%;
-            margin: 10px auto;
-            border-color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Joanne<br>Chen</h1>
-        <hr>
-        <div class="profile-picture">
-            <img src="photo.png" alt="Joanne Chen">
-        </div>
-        <div class="profile-info">
-            <h2>個人資料 <span>PROFILE</span></h2>
-            <p>陳久安 Joanne Chen<br>1997–<br>應屆畢業生 / 接案設計師 / UI 設計實習生<br>UI 設計修行中 / 立志當斜槓青年</p>
-            <p>獨立接案，內容涵蓋：<br>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
-        </div>
-
-        <div class="education-info section">
-            <h2>學歷 <span>EDUCATION</span></h2>
-            <p>國立六角師範大學 視覺設計學系 學士學位 | 2016–2020</p>
-            <p>國立六腳高級中學 美術班 | 2013–2016</p>
-        </div>
-
-        <div class="skills-info section">
-            <h2>技能 <span>SKILLS</span></h2>
-            <hr>
-            <p>Adobe Photoshop<br>Adobe Illustrator<br>Adobe XD<br>Adobe Indesign<br>C4D<br>Adobe Premiere</p>
-            <p>語言：中文、英文</p>
-        </div>
+<div class="container">
+  <div class="JoanneChen" data-aos="fade-up-right">
+    <h1>Joanne</h1>
+    <h1>Chen</h1>
+  </div>
+  <img class="HeadShot" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week1/photo.png" alt="" data-aos="fade-up-right">
+  <div class="profile">
+    <div class="title" > 
+    <h2 data-aos="fade-up">個人資料<span>PROFILE</span></h2>
     </div>
-</body>
-</html>
+    <p data-aos="fade-up">陳久安 Joanne Chen <br>1997-<br>應屆畢業生／接案設計師／UI 設計實習生</p>
+    <p class="profile-p" data-aos="fade-up">UI 設計修行中／立志當斜槓青年<br>獨立接案，內容涵蓋：<br>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
+  </div>
+  <div class="eduction">
+    <div class="title"> 
+    <h2 data-aos="fade-up">學歷<span>EDUCATION</span></h2>
+    </div>
+    <p data-aos="fade-up">國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</p>
+    <p data-aos="fade-up">國立六腳高級中學 美術班 | 2013－2016</p>
+  </div>
+</div>
+
+<div class="container-full" >
+  <div class="skills">
+    <div class="title-skills">
+      <h2 data-aos="fade-up">技能<span>SKILLS</span></h2>
+    </div>
+    <div class="list-skills">
+      <ul>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe XDr</li>
+        <li>Adobe Indesign</li>
+        <li>C4D</li>
+        <li>Adobe Premiere</li>
+        <li>語言：中文、英文</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container container-experience">
+  <div class="experience">  
+    <div class="title">
+      <h2 data-aos="fade-up" data-aos="fade-up">工作經驗<span>WORK EXPERIENCE</span></h2>
+    </div>
+    <div class="content-experience"> 
+      <h3>六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week1/hexschool.png?raw=true" alt="">
+      <p class="p-first">在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS,<br>Adobe XD，設計給學員使用的名片設計教材，並參與六角週年活動，設<br>計各式周邊商品及活動網路宣傳圖。後期進入 UI 設計範疇，設計六角共<br>筆部落格 - W3HexSchool、六角發案服務網介面設計、供給學員的教<br>案- RWD官方網站設計，並設計各式網頁活動宣傳圖。</p>
+      <h3 class="h3-adjust">獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
+      <h3 class="h3-adjust">獨立接案 Exulans 酒標設計 | 2019</h3>
+      <h3 class="h3-adjust">獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
+      <h3>Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
+      <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week1/simtree.png?raw=true" alt="">
+      <p>擔任外場及吧台服務生，學習咖啡相關知識。</p>
+    </div>
+  </div>
+</div>
+<div class="container-full">
+  <div class="contact">
+    <div class="title-contact">
+      <h2 data-aos="fade-up">聯絡方式<span>CONTACT METHOD</span></h2>
+    </div>
+    <div class="list-contact">
+      <ul>
+        <li>Mail：xxxd@hexschool.com</li>
+        <li>Phone：0910123456</li>
+        <li>Kaohsiung, Taiwan</li>
+        <li>作品連結：https://www.behance.net/xxxdddddd</li>
+        <li data-aos="fade-left">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/589b5acffa75d99cd21d14a9f8b4a27135e1afa3/week1/facebook.svg" alt="">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/589b5acffa75d99cd21d14a9f8b4a27135e1afa3/week1/instagram.svg" alt="">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/589b5acffa75d99cd21d14a9f8b4a27135e1afa3/week1/line.svg" alt="">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
