@@ -1,0 +1,184 @@
+body {
+    font-family: Microsoft JhengHei, Arial;
+    box-sizing: border-box;
+    
+    /*   載入視差滾動不要出現x軸 */
+    overflow-x: hidden;
+   
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .JoanneChen {
+    border-bottom: 2px solid #000000;
+    padding: 40px 0 24px 0;
+  }
+  
+  h1 {
+    font-size: 80px;
+    line-height: 95px;
+  }
+  
+  .HeadShot {
+    padding: 48px 0;
+  }
+  
+  .title {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 8px;
+  }
+  .title h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+  }
+  
+  .title span {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 16px;
+    color: #A00404;
+    vertical-align: text-top;
+  }
+  
+  .profile p {
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .profile-p {
+    margin-bottom: 64px;
+  }
+  
+  .eduction p {
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .container-full {
+    margin-top: 64px;
+    background-color: #415165;
+  }
+  
+  .skills {
+    width: 996px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+  }
+  
+  .title-skills {
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  
+  .title-skills h2 {
+    margin: 0 auto;
+    width: 200px;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  
+  .title-skills span {
+    margin-left: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    vertical-align: text-top;
+  }
+  
+  .list-skills {
+    width: 220px;
+    margin: 48px auto 0 auto;
+    padding-left: 24px;
+    border-left: 1px solid #FFFFFF;
+  }
+  
+  .list-skills li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+  }
+  
+  .content-experience {
+    border-left: 1px solid #96A9C4;
+    margin-top: 16px;
+    padding: 0 0 0 24px ;
+  }
+  
+  .experience h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+  
+  .experience img {
+    vertical-align: middle;
+  }
+  
+  .experience p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .p-first {
+    margin-bottom: 24px;
+  }
+  
+  .h3-adjust {
+    margin-bottom: 24px;
+  }
+    
+  
+  .container-experience {
+    margin-top: 64px;
+  }
+  
+  .contact {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+  
+  .title-contact {
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  
+  .title-contact h2 {
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  
+  .title-contact span{
+    margin-left: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    vertical-align: text-top;
+  }
+  
+  .list-contact {
+    text-align: center;
+    padding-top: 24px;
+  }
+  
+  .list-contact li {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+  
+  .list-contact img {
+    margin-left: 24px;
+    vertical-align: middle;
+    margin-bottom: 40px;
+  }
