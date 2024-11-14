@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanne Chen Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            margin: 20px 0;
+            width: 80%;
+            border: 0;
+            border-top: 1px solid #000;
+        }
+
+        .profile-picture img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+            display: block;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .profile-info, .education-info, .skills-info {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .profile-info h2,
+        .education-info h2,
+        .skills-info h2 {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .profile-info h2 span,
+        .education-info h2 span,
+        .skills-info h2 span {
+            font-size: 14px;
+            font-weight: normal;
+            color: #d32f2f;
+            margin-left: 10px;
+        }
+
+        .education-info p,
+        .skills-info p {
+            margin-top: 10px;
+        }
+
+        .skills-info {
+            background-color: #455a64;
+            color: #fff;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .skills-info h2 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .skills-info p {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .skills-info hr {
+            width: 50%;
+            margin: 10px auto;
+            border-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Joanne<br>Chen</h1>
+        <hr>
+        <div class="profile-picture">
+            <img src="photo.png" alt="Joanne Chen">
+        </div>
+        <div class="profile-info">
+            <h2>個人資料 <span>PROFILE</span></h2>
+            <p>陳久安 Joanne Chen<br>1997–<br>應屆畢業生 / 接案設計師 / UI 設計實習生<br>UI 設計修行中 / 立志當斜槓青年</p>
+            <p>獨立接案，內容涵蓋：<br>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
+        </div>
+
+        <div class="education-info section">
+            <h2>學歷 <span>EDUCATION</span></h2>
+            <p>國立六角師範大學 視覺設計學系 學士學位 | 2016–2020</p>
+            <p>國立六腳高級中學 美術班 | 2013–2016</p>
+        </div>
+
+        <div class="skills-info section">
+            <h2>技能 <span>SKILLS</span></h2>
+            <hr>
+            <p>Adobe Photoshop<br>Adobe Illustrator<br>Adobe XD<br>Adobe Indesign<br>C4D<br>Adobe Premiere</p>
+            <p>語言：中文、英文</p>
+        </div>
+    </div>
+</body>
+</html>
