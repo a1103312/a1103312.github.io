@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f0e7;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1.center {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.yoga-space .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.yoga-space .image {
+    position: relative;
+    width: 50%; 
+    margin-left: 20%; 
+}
+
+.yoga-space .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.image-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0; 
+    width: 100%; 
+    color: #fff;
+    text-align: left;
+    padding: 0.5rem 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.overlay-text h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.overlay-text p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+
+
+.yoga-space .details {
+    width: 30%; 
+    margin-left: 2rem;
+}
+
+.yoga-space .details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.yoga-space .details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.yoga-space .details ul li {
+    margin-bottom: 0.5rem;
+}
+
+.reservation-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.facilities {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.facility-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem;
+    width: 50%; 
+}
+
+.facility-item {
+    width: 100%;
+    aspect-ratio: 1.5; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facility-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.facility-item .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 1rem;
+    text-align: left;
+}
+
+.facility-item .overlay h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.facility-item .overlay p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .facility-grid {
+        grid-template-columns: 1fr; 
+        width: 90%; 
+    }
+
+    .yoga-space .content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .yoga-space .image,
+    .yoga-space .details {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+.social-icons {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .facility-row {
+        flex-direction: column;
+    }
+
+    .facility-item {
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+.class-recommendation {
+    margin: 3rem 0;
+    text-align: center;
+    position: static;
+}
+
+.class-recommendation .class-slider {
+    display: flex;
+    overflow-x: auto; 
+    gap: 10px;
+    padding: 1rem;
+    scroll-snap-type: x mandatory; 
+}
+
+.class-recommendation .class-item {
+    flex: 0 0 255px;
+    height: 196px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+    text-align: center;
+}
+
+.class-recommendation .class-item img {
+    width: 100%;
+    height: 70%; 
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.class-recommendation .class-item h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.class-recommendation .class-item p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+.subscription {
+    margin-top: 3rem; 
+    padding: 2rem 1rem;
+}
+
+.subscription-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.subscription h2 {
+    font-size: 1.5rem;
+    flex: 0 0 auto;
+}
+
+.subscription form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.subscription input[type="email"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscription button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscription button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .class-recommendation .class-slider {
+        gap: 5px;
+    }
+
+    .subscription input[type="email"] {
+        width: 70%;
+    }
+}
+
+
